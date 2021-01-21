@@ -9,7 +9,7 @@ while True:
     file.close()
     file = open("lol.txt", "a")
     os.system("git add .")
-    time.sleep(1)
+    #time.sleep(1)
     os.system("git commit -m \"XD\"")
     n+=1
 
