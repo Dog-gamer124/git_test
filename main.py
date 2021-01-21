@@ -1,17 +1,16 @@
 import os
 
-file = open("lol.txt", "r+")
+file = open("lol.txt", "a")
+n=0
 
 while True:
     file.write("lol")
     os.system("git add .")
-    file.close()
-    os.system("git commit -m \"lol\"")
-    file = open("lol.txt", "r+")
+    os.system("git commit -m \"lol\"" )
     file.write("XD")
-
     os.system("git add .")
     os.system("git commit -m \"XD\"")
+    n+=1
 
 
 file.close()
