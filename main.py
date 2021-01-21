@@ -1,4 +1,5 @@
 import os
+import time
 
 file = open("lol.txt", "a")
 n=0
@@ -6,6 +7,7 @@ n=0
 while True:
     file.write("lol")
     os.system("git add .")
+    time.sleep(10)
     #os.system("git commit -m \"lol\"" )
     file.write("XD")
     os.system("git add .")
