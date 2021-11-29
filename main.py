@@ -11,7 +11,7 @@ try:
         file = open("lol.txt", "a")
         os.system("git add .")
         #time.sleep(1)
-        os.system("git commit -m \"XD\"")
+        os.system("git commit -m \"e\"")
         n+=1
 except KeyboardInterrupt:
     os.system("@echo on")
